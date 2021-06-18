@@ -1,0 +1,40 @@
+body{
+font-family: sans-serif;
+margin: 0;
+}
+#topBar{
+  background-color: #444;
+  overflow: hidden;
+  text-align: center;
+}
+
+.topButton{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  padding: 10px 12px;
+  color: white;
+  font-size: 22px;
+  font-weight: 100;
+  border-style: solid;
+  border-width: 1px;
+  border-top: 0;
+  border-bottom: 0;
+  border-color: grey;
+  transition: 0.1s;
+}
+.topButton.current{
+  background-color: darkorange;
+}
+.topButton.current:hover{
+ color: white;
+}
+.topButton:hover{
+  color: white;
+  background-color: #b36200;
+  cursor: pointer;
+}
+h1{
+  text-align: center;
+}
